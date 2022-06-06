@@ -11,8 +11,7 @@ pipeline {
     }
     post {
         always {
-           today=`date`
-            echo $today
+            echo date
         }
     }
 }
