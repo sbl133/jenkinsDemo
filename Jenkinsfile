@@ -1,5 +1,3 @@
-import java.text.SimpleDateFormat
-
 pipeline {
    agent {
         label "demoAgent"
@@ -13,7 +11,7 @@ pipeline {
     }
     post {
         always {
-           echo "202206071412"
+           echo "202206071415"
         }
     }
 }
